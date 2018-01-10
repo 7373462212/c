@@ -9,7 +9,7 @@ while(n!=0)
 {
 n=n/10;
 count++;
+}  
 printf("\nThe number of integer %d",count);
-}
 return 0;
 }
