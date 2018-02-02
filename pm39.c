@@ -11,7 +11,7 @@ int main(void) {
 	 for(j=i+1;j<3;j++)
      {
     
-	if(a[i]>a[j])
+	if(a[i]<a[j])
 	{
 		b=a[j];
 		a[j]=a[i];
@@ -19,6 +19,6 @@ int main(void) {
 	}
     }
 	}
-	printf("\nThe median element is:%d",a[i]);
+	printf("\nThe median element is:%d",a[0]);
 	return 0;
 }
