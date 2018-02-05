@@ -5,7 +5,7 @@ int num,r,temp,sum=0,a=1,b=50;
 printf("enter an number: ");
 scanf("%d",&num);
 temp=num;
-if(a<=b)
+if(a<b)
 {
 while(num!=0)
 {
