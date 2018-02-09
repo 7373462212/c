@@ -1,13 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,fact=1;
+    int a,b,c,i,n;
     printf("\nEnter the number:");
     scanf("%d",&n);
-    for(i=1;i<n;i++)
+    a=0;
+    b=1;
+    c=0;
+    for(i=0;i<n;i++)
     {
-        fact=fact*i;
+        a=b;
+        b=c;
+        c=a+b;
+        printf("%d",c);
     }
-    printf("\nThe factorial of the given number is :%d",fact);
-    return o;
-    }
+    return 0;
+}
