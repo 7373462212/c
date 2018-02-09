@@ -10,7 +10,7 @@ int main()
     }
     else
     {
-        b=a+1;
+        b=a-1;
         printf("\nThe nearest even number is :%d",b);
     }
     return 0;
