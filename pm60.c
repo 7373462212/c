@@ -5,11 +5,11 @@ int main()
     printf("\nEnter the number :");
     scanf("%d",&n);
     for(i=0;i<n;i++)
-    {
-        printf("%d",x);
+    {    
         nt=x+y;
         x=y;
         y=nt;
+        printf("%d",x);
     }
     return 0;
 }
