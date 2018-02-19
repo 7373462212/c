@@ -4,11 +4,11 @@ int main()
 {
 	char ch[100];
 	int m,i=0,count=1;
-	scanf("%[^\t\n]s",a);
-	n=strlen(a);
+	scanf("%[^\t\n]s",ch);
+	n=strlen(ch);
 	while(i<n)
 	{
-	   if(a[i]==' ')
+	   if(ch[i]==' ')
 	    {
 	        count++;
 	    }
