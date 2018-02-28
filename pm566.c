@@ -4,7 +4,7 @@ int main(void){
     int count=0;
     printf("\nEnter the sentence:");
     scanf("%c",&ch);
-    if((ch[i]<='a')||(ch[i]>='z'))
+    if((ch[i]<='a')||(ch[i]>='z')||(ch[i]<='A')||(ch[i]>='Z'))
     {
         temp++;
     }
