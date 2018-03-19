@@ -1,17 +1,17 @@
 #include <stdio.h>
 void main()
 {
-int m,c=0,i;
+int n,count=0,i;
 printf("Enter the number:");
-scanf("%d",&m);
-for(i=2;i<m;i++)
+scanf("%d",&n);
+for(i=2;i<n;i++)
 {
-if((m%i)==0)
+if((n%i)==0)
 {
-c++;
+count++;
 }
 }
-if(c==0)
+if(count==0)
 {
 printf("No");
 }
